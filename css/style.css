@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	}
+
+
+
+header{
+	background-image: url("../img/mockups.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-bottom: 25px solid #E5A671;
+	background-color: #23214E;
+	}
+header img{
+	width: 800px;
+	}	
+
+footer{
+	margin-top: 100px;
+	background-color: #82BFBF;
+	color: #23214E;
+	font-family: "Univers LT Std 49 Light UltraCn";
+	letter-spacing: 5px;
+	padding: 15px 0 5px;
+	border-top: 15px solid #E5A671;
+	font-size: 12px;
+	font-weight: 800;
+	}
+
+footer img{
+	width: 98px;
+}
+footer p{
+	font-size: 10px;
+}
+
+.letra-lightblue{
+	color: #82BFBF 
+}
+
+.letra-orange{
+	color: #E5A671
+}
+
+.copyright{
+	margin: auto;
+	margin-top: 45px;
+	}
+
+.btn-mas{
+	background: linear-gradient(to right,#E5A671, #82BFBF);
+	color: #23214E;
+	text-transform: uppercase;
+	border-radius: 10;
+	padding: 15px 30px;
+	border: 0;
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+
+.btn-mas:hover{
+	background: linear-gradient(to right,#E5A671, #82BFBF);
+	transition: all 0.3s ease-in-out;
+}
+
+/*aside{
+	background-color: aqua;
+	float: left;
+	height: 420px;
+	width: 340px;
+}*/
+
+#articulos{
+	padding: 50px 100px;
+}
+
+#articulos h3{
+	text-align:justify;
+	font-family: Univers LT Std;
+	color: #85C9C8;
+	margin-top: 20px;
+		
+}
+
+#articulos h2,
+#hogar h2,
+#DIY H2{
+	font-family: Bebas Neue;
+	color: #23214E;
+	text-align: justify;
+	margin-top: 25px;
+}
+
+
+#articulos-derecha img{
+	width: 200px;
+}
+
+#articulos-derecha p{
+	font-size: 10px;
+}
+
+nav{
+	padding: 20px 0;
+	position: absolute;
+	width: 100%;
+	z-index: 999999;
+	
+}
+
+.titulo{
+	text-align:justify;
+	font-family: Univers LT Std;
+	color: #85C9C8;
+	margin-top: 20px;
+	
+}
+
+.carousel-caption{
+	text-align: center;
+	background-color: rgba(0,0,0,0.45);
+	padding: 30px;
+	border-radius: 25px;
+		
+}
+
+.carousel-caption h3{
+	font-size: 49px;
+}
+.info {
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
+	
+}
+
+.titulo {
+	margin-top: 80px;
+	font-weight: 580;
+	font-size: 35px;
+	
+}
+
+#newsletter{
+	align-content: center;
+	text-align: center;
+	}
+
+.bg-newsletter{
+	background-color: #85C9C8;
+	margin-top: 50px;
+	padding: 20px 20px;
+	border-radius: 3%;
+	width: 100%
+}
+
+#newsletter h2{
+	font-family: Bebas Neue;
+	color: #23214E;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	}
+
+#newsletter i{
+	font-size: 150px;
+	color: #23214E;
+	}
+
+form#newsletter-form input{
+	background-color: rgba(229,166,113,0.74);
+	border-radius: 5%;
+	padding: 20px;
+	border: 0;
+	font-size: 13px;
+	color: #23214E;
+	
+	
+}
+
+
+#hogar{
+	align-content: center;
+}
+
+#DIY{
+	align-content: center;
+}
+
+#hogar h2{
+	margin: 20px 30px;
+	width: 85%;
+	padding-top: 25px;
+}
+
+#DIY h2{
+	margin: 20px 30px;
+	width: 85%;
+	padding-top: 25px;
+}
+
+#hogar img{
+	width: 85%;
+	margin: 20px 30px;
+}
+
+#DIY img{
+	width: 85%;
+	margin: 20px 30px;
+}
+
+ul li{
+	margin: 20px 30px;
+	justify-content: center;
+}
+
+
+#hogar p{
+width: 70%;
+justify-content: center;
+align-content: center;
+margin: 20px 30px;
+}
+
+#DIY p{
+width: 70%;
+justify-content: center;
+align-content: center;
+margin: 20px 30px;
+}
